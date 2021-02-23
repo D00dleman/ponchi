@@ -25,7 +25,11 @@ def update(msg, bot):
     next_function = getattr(
         cfg.app,
         chat_data.next_function
-    )(msg, bot, chat_session_data)
+    )(
+        msg, 
+        bot, 
+        chat_session_data
+    )
 
     # Если вернулась функция
     if type(next_function) == type(lambda: None):
