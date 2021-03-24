@@ -6,7 +6,7 @@ setup(
     author='D00dleman',
     license='MIT',
     description='Python Telegram bot framework',
-    url='https://github.com/D00dleman/ponchi'
+    url='https://github.com/D00dleman/ponchi',
     packages=['ponchi', 'ponchi.clear_app'],
     long_description=open('README.md').read(),
     install_requires=[
